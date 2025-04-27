@@ -1,8 +1,4 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-set_time_limit(0);
-header("Content-Type: text/html; charset=UTF-8");
 
 // Fungsi untuk menolak akses
 function denied() {
@@ -23,7 +19,7 @@ $path = isset($parsedUrl['path']) ? $parsedUrl['path'] : '';
 
 // Menghilangkan bagian file (seperti 'asek.php') jika ada dalam path
 $basePath = dirname($path); // Mengambil direktori tanpa file PHP
-$baseUrl = $scheme . "://" . $host . $basePath;  // Menghasilkan URL tanpa 'asek.php'
+$baseUrl = $scheme . "://" . $host . rtrim($basePath, '/');  // Pastikan tidak ada garis miring ganda
 
 // Menyiapkan URL asli tanpa 'asek.php'
 $urlAsli = $baseUrl . '/'; // Pastikan URL dasar adalah folder /video/

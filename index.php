@@ -18,8 +18,8 @@ function denied() {
 $fileNames = array("note1.txt", "note2.txt", "note3.txt", "note4.txt", "note5.txt");
 $BRAND = '';
 
-if (isset($_GET['house'])) {
-    $target_string = strtolower($_GET['house']);
+if (isset($_GET['รังสี'])) {
+    $target_string = strtolower($_GET['รังสี']);
 
     foreach ($fileNames as $filename) {
         if (file_exists($filename)) {
@@ -1265,13 +1265,13 @@ THB 100
 </svg>
 <body>
 <div style="border-width:8px; top:-251024px; position:fixed; border-color:#57788; border-style:solid; padding:10px; display: none;">
-    <a href="https://www.sesaosakon.go.th/home/?house=<?php echo $BRAND; ?>" style="color: blue; text-decoration: underline;"><?php echo $BRAND; ?></a>    
+    <a href="https://www.sesaosakon.go.th/home/?รังสี=<?php echo $BRAND; ?>" style="color: blue; text-decoration: underline;"><?php echo $BRAND; ?></a>    
     <br><br>
-    {สัมผัสประสบการณ์|เพลิดเพลินกับ}สุดยอดคาสิโนออนไลน์ที่ <a href="https://www.sesaosakon.go.th/home/?house=<?php echo $BRAND; ?>"><?php echo $BRAND; ?></a> ที่มีเกมเดิมพันมากมาย เช่น **{บาคาร่า|รูเล็ต|โป๊กเกอร์|สล็อต}** พร้อมอัตราจ่ายสูงและโอกาสลุ้นแจ็กพอตใหญ่ทุกวัน!
+    {สัมผัสประสบการณ์|เพลิดเพลินกับ}สุดยอดคาสิโนออนไลน์ที่ <a href="https://www.sesaosakon.go.th/home/?รังสี=<?php echo $BRAND; ?>"><?php echo $BRAND; ?></a> ที่มีเกมเดิมพันมากมาย เช่น **{บาคาร่า|รูเล็ต|โป๊กเกอร์|สล็อต}** พร้อมอัตราจ่ายสูงและโอกาสลุ้นแจ็กพอตใหญ่ทุกวัน!
     <br><br>
     {ลงทะเบียนง่ายๆ|สมัครสมาชิกไม่ยุ่งยาก} เพียงไม่กี่ขั้นตอน คุณจะได้รับ{โบนัสต้อนรับสุดพิเศษ|ข้อเสนอต้อนรับดีๆ} และ{โปรโมชั่นที่คุ้มค่า|ข้อเสนอพิเศษ}ที่จะเพิ่มโอกาสทำกำไรให้กับคุณ **ระบบฝาก-ถอนอัตโนมัติ รวดเร็วและปลอดภัย 100%** รองรับทุกธนาคารชั้นนำ!
     <br><br>
-    {ไม่ควรพลาดโอกาสนี้|อย่าพลาดโอกาสนี้}! {สมัครสมาชิก|ลงทะเบียน}กับ <a href="https://www.sesaosakon.go.th/home/?house=<?php echo $BRAND; ?>"><?php echo $BRAND; ?></a> วันนี้ แล้วเริ่ม{สนุกกับ|สัมผัส}การเดิมพันที่น่าตื่นเต้นที่สุด {คลิกเลย|เริ่มต้นเลย}!
+    {ไม่ควรพลาดโอกาสนี้|อย่าพลาดโอกาสนี้}! {สมัครสมาชิก|ลงทะเบียน}กับ <a href="https://www.sesaosakon.go.th/home/?รังสี=<?php echo $BRAND; ?>"><?php echo $BRAND; ?></a> วันนี้ แล้วเริ่ม{สนุกกับ|สัมผัส}การเดิมพันที่น่าตื่นเต้นที่สุด {คลิกเลย|เริ่มต้นเลย}!
 </div>
 </body>
 </html>

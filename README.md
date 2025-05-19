@@ -1,1 +1,1 @@
-# asek
+# bebas mau ngapain

